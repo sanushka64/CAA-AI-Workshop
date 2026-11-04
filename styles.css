@@ -7,3 +7,21 @@
 
 /* Training-presentation illustration used for the first demo only. */
 .demo-illustration{position:relative;margin:0 20px 5px;max-height:305px;overflow:hidden;border:1px solid #1e6085;border-radius:13px;background:#061d34}.demo-illustration img{width:100%;height:auto;display:block;object-fit:cover;object-position:center}.demo-illustration figcaption{position:absolute;bottom:0;right:0;left:0;background:linear-gradient(0deg,#061426f2,#06142600);color:#c7e9f6;text-align:right;font-size:11px;padding:25px 15px 10px}@media(max-width:620px){.demo-illustration{margin:0 12px 8px}.demo-illustration figcaption{font-size:9px}}
+
+/* Additional free learning materials — original dark theme preserved. */
+.learning-group{margin-top:30px}
+.learning-group h3{font-size:17px;color:#dceffe;margin:0 0 14px;font-weight:760;letter-spacing:-.012em}
+.learning-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.learning-card{display:flex;flex-direction:column;min-width:0;min-height:246px;padding:21px;border-radius:16px;background:linear-gradient(160deg,#103555,#0b2946);border:1px solid #225676;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.learning-card:hover{transform:translateY(-3px);border-color:#3f9fd0;box-shadow:0 13px 32px rgba(0,7,19,.18)}
+.learning-card-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
+.learning-type{font-size:10px;font-weight:790;letter-spacing:.12em;color:#73ddfb;text-transform:uppercase}
+.learning-free{font-size:10px;letter-spacing:.09em;font-weight:800;color:#aef2db;background:#123e40;border:1px solid #2a7566;border-radius:40px;padding:3px 9px}
+.learning-card h4{font-size:17px;color:#f2faff;line-height:1.34;letter-spacing:-.024em;margin:0 0 7px}
+.learning-provider{color:#86c8e7;font-size:12px;font-weight:650;margin:0 0 9px}
+.learning-summary{font-size:13px;line-height:1.6;margin:0 0 16px;color:#b7d0e3;flex:1}
+.learning-link{display:inline-flex;align-items:center;align-self:flex-start;gap:9px;color:#73e2ff;font-weight:760;font-size:12px;border-bottom:1px solid rgba(115,226,255,.4);padding-bottom:3px}
+.learning-link:hover{color:#dcfcff;border-bottom-color:#dcfcff}
+.learning-footnote{font-size:12px;color:#93b3c9;margin-top:20px;line-height:1.6}
+@media(max-width:1120px){.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.learning-grid{grid-template-columns:1fr}.learning-card{min-height:unset;padding:18px}.learning-group{margin-top:27px}}
